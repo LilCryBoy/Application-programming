@@ -1,0 +1,9 @@
+﻿  Source.cpp
+E:\College\College\!Прикладное программирование\std\Data input AND Output\Task2\Source.cpp(7,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+E:\College\College\!Прикладное программирование\std\Data input AND Output\Task2\Source.cpp(12,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  Создание кода
+  1 of 11 functions ( 9.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Task2.vcxproj -> E:\College\College\!Прикладное программирование\std\Data input AND Output\Release\Task2.exe
