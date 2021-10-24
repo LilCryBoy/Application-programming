@@ -1,7 +1,6 @@
 #include <iostream>
 
-const double Concetrat = 0.001;
-double humanWeight, mouseWeight, dead, DeadMouse, deadHuman;
+
 void main()
 {
 	setlocale(LC_ALL, "Rus");

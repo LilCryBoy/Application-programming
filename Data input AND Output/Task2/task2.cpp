@@ -1,7 +1,6 @@
 #include <iostream>
 
-const double trans = 35273.92;
-double enter;
+
 
 void main()
 {

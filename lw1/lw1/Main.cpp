@@ -15,7 +15,7 @@ void Task1()
 	const double a = 12.;
 
 	double y = 2. * pow(sin(3. * PI - 2. * a), 2.) * pow(cos(5. * PI + 2. * a), 2.);
-	double z = 0.25 - 0.25 * sin(2.5 * PI - 8. * a);
+	double z = 1.0 / 4 - 1.0 / 4 * sin(5.0 / 2 * PI - 8 * a);
 
 	cout << y << endl;
 	cout << z << endl;
@@ -63,18 +63,20 @@ void Task2()
 //1.Составить программу вычисления значения функции F(x, y), где x, y вводятся с клавиатуры, а величины а и b являются константами.
 void Task3()
 {
-
 	cout << " " << endl;
 	cout << "Старт программы Task3" << endl;
-	const double a = 1.0, b = 1.0;
-	double x, y, rh, rd, F;
+	const double a = 45.0, b = 45.0;
+	double x, y, F;
 	cout << "X = ";
 	cin >> x;
 	cout << "Y = ";
 	cin >> y;
-
+	double hD = x * x * x + x * x + x * y * y + y * y * y;
+	double dD = 1 - x / a + y / b * cos(x + a);
+	double resD = hD / dD;
+	F = pow(sin(x - a), 2) + resD;
+	cout << "F - " << F << endl;
 	system("pause");
-
 }
 
 
